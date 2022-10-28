@@ -1,0 +1,25 @@
+#Tip Calculator App
+print('Tip Calculator App')
+print(' ')
+
+food_amount = float(input('Enter food amount $: '))
+
+tip_percentage = float(input('Enter your tip percentage : ')) /100
+
+tip_amount= food_amount * tip_percentage
+
+#total = food amount * tip amount
+print('------------------------')
+total =food_amount + tip_amount
+
+print(f'Tip Amount: ${tip_amount}')
+
+print(f'Food Amount: ${food_amount}')
+
+print('\n')
+
+print(f'Total Amount: ${total}')
+
+print('------------------------')
+print('Thank you for using!')
+# string formatting
